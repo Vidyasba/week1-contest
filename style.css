@@ -1,0 +1,48 @@
+.navbar{
+    background-color: black;width: 100%;height: 30px;color: white;
+}
+.manali{
+    height: 500px;width: 600px;
+}
+.ol{
+    font-size: 50px;font-weight: 400;
+}
+.ul{
+    font-size: 50px;font-weight: 400
+}
+.tabhead{
+    font-size: 50px;
+}
+
+
+
+
+
+table {
+    width: 100%;
+    height: 755px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    padding-left: 32px;
+}
+
+td {
+    padding-left: 42px;
+}
+
+th:not(:last-child),
+td:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+tr:first-child{
+    border-bottom: 1px solid black;
+}
+tr:last-child {
+    background: #000;
+    color: white;
+}
